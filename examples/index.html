@@ -1,0 +1,50 @@
+<!--
+ * @Name: index.html
+ * @Description:
+ * @Date: 2023/8/15 17:05
+ * @Author: huyafei
+ * @LastEditors: huyafei
+ * @LastEditTime: 2023/8/15 17:05
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no"/>
+  <link rel="stylesheet" href="../lib/index.min.css">
+  <style>
+    .img {
+      width: 400px;
+      height: 200px;
+      /* 要显示的图片作为背景 */
+      background: url(./img/tp.jpg) no-repeat;
+      background-size: 100% 100%;
+      /* mask所需要的图片  原理是 mask属性会将图片的透明部分不显示，只显示有颜色的部分 */
+      -webkit-mask-image: url(./img/result_ls.png);
+      -webkit-mask-size: 100% 100%;
+    }
+
+    .img img {
+      width: 100%;
+      height: 100%;
+      /*background: url("./img/border.png");*/
+      /*background-size: 100% 100%;*/
+    }
+  </style>
+</head>
+<body>
+<div>
+  <p>春天的故事</p>
+  春天的故事春天来了，大地复苏，万物苏醒。阳光透过稀疏的树叶洒在大地上，春风轻轻拂过，带来一丝丝花香。春天是一个醒来的季节，它带给人们希望和温暖。春天的早晨，我走出家门，感受到一阵清新的空气，仿佛大自然也在呼吸。我漫步在花丛中，看到一朵朵娇艳的花朵，它们争奇斗艳，各自展示着自己的美丽。粉色的桃花像一朵朵精灵，轻轻地飘落在地上，给大地披上了一层美丽的红色。白色的梨花像一颗颗小星星，闪烁着光芒，给人一种宁静和祥和的感觉。红色的杏花像一把火焰，燃烧着春天的热情，给人一种活力和激情。春天的午后，我来到了一片绿油油的田野。田野里的麦苗已经长得翠绿茂盛，像一片片细密的绿地毯。微风吹过，麦苗轻轻摇曳，像是在向人们打招呼。我脱下鞋子，赤脚踩在麦苗上，感受到了大地的温暖和生机。远处的小河里，鱼儿欢快地游来游去，仿佛在跳着春天的舞蹈。小鸟在树枝上欢快地歌唱，它们的歌声如同天籁，让人陶醉其中。春天的傍晚，我来到了一座湖边。湖水清澈透明，倒映着天空的蓝色和云朵的白色。湖边的花草丛中，有一群蝴蝶在翩翩起舞，它们五颜六色的翅膀在阳光下闪烁着光芒，像是一幅美丽的画卷。湖边的杨柳摇曳着婀娜的身姿，像是在给湖水讲述着一个个美丽的故事。我坐在湖边的长椅上，闭上眼睛，聆听着大自然的声音，感受着春天的温暖。春天是一个美丽的季节，它让大地焕发出新的生机和活力。在春天里，我们可以看到大自然的奇迹，感受到生命的力量。让我们珍惜春天，珍惜大自然的恩赐，让我们用心去感受春天的故事。
+</div>
+<div class="bg" style="width: 300px;height: 300px">
+
+</div>
+
+<div class="img">
+  <img src="./img/border.png">
+  <!--	<img>-->
+</div>
+</body>
+</html>
